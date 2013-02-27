@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <a href="/create_paper">添加试卷</a>
+    <% papers.forEach(function(paper){ %>
+    	<a href="/modify_paper/<%= paper._id %>"><%= paper.name %></a>
+    <%	}) %>
+  </body>
+</html>

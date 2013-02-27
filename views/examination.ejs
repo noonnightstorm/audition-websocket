@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+  	<% questions.forEach(function(question){ %>
+  		<% if(question.type == "0"){ %>
+  			<% include exam_topic_single %>
+  		<% } %>
+  		<% if(question.type == "1"){ %>
+  			<% include exam_topic_double %>
+  		<%} %>
+  		<% if(question.type == "2"){ %>
+  			<% include exam_topic_question %>
+  		<% } %>
+  	<% }) %>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<div class="question-form">
+		<div class="question-type-box">
+			<label>type:</label>
+			<select id="question-type" value="<%= question.type %>">
+				<option value="0">单选题</option>
+				<option value="1">多选题</option>
+				<option value="2">问答题</option>
+			</select>
+		</div>
+		<div class="question-content-box">
+			<label>content:</label>
+			<textarea id="question-content"><%= question.content %></textarea>
+		</div>
+		<div class="answer-box">
+			<section>
+				<button class="add-answer-btn">
+					add answer
+				</button>
+			</section>
+			<% answers.forEach(function(answer){ %>
+				<% if(question._id == answer.question_id) {%>
+					<div class="answer-item">
+						<label>answer:</label>
+						<input type="text" class="answer-content" value=<%= answer.content %>>
+					</div>
+				<% } %>
+			<%	}) %>
+			<div class="answer-item answer-item-example">
+				<label>answer:</label>
+				<input type="text" class="answer-content">
+			</div>
+		</div>
+		<button class="save-question-btn" value="paper_id">save</button>
+	</div>

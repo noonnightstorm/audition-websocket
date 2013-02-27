@@ -1,0 +1,11 @@
+<article>
+	<section><%= question.content %></section>
+	<% answers.forEach(function(answer){ %>
+		<% if(question._id == answer.question_id){ %>
+			<section>
+				<input type="radio" value="<%= answer._id %>">
+				<span><%= answer.content %></span>
+			</section>
+		<% } %>
+	<% }) %>
+</article>
