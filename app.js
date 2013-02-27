@@ -42,13 +42,17 @@ app.get('/admin', routes.admin);
 app.post("/save_paper",db.savePaper);
 app.put("/save_question/:paper_id",db.saveQuestion);
 
-/*socket.io*/
-var io = sio.listen(app);
-io.sockets.on("connection",socket.connection);
+var server = http.createServer(app);
 
-http.createServer(app).listen(app.get('port'), function(){
+/*socket.io*/
+var io = sio.listen(server);
+io.sockets.on("connection",function(socket){
+  socket.on("text",function(data){
+    console.log(data);
+  });
+  socket.emit("text", { "data": "seccess!" });
+});
+
+server.listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));
 });
-/*app.listen(app.get('port'),function(){
-
-});*/
