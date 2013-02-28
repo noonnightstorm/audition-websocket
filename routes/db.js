@@ -3,6 +3,10 @@ mongoose.connect( 'mongodb://localhost/examination' );
 var Schema = mongoose.Schema
   , ObjectId = Schema.ObjectId;
 
+var Person = new Schema({
+	name : String  ,
+	paper_id : String 
+});
 var Paper = new Schema({
 	name : String,
 	type : String  ,
@@ -21,11 +25,15 @@ var Answer = new Schema({
 	content : String 
 });
 
+var Persons = mongoose.model( 'Persons', Person );
 var Papers = mongoose.model( 'Papers', Paper );
 var Questions = mongoose.model( 'Qusetions', Qusetion );
 var Answers = mongoose.model( 'Answers', Answer );
 
 /*get*/
+exports.getPerson = function(){
+	return Persons;
+}
 exports.getPaper = function(){
 	return Papers;
 }
@@ -46,6 +54,7 @@ exports.savePaper = function(req,res){
 	paper.limit_time = req.body.limit_time;
 	paper.description = req.body.description;
 	paper.save();
+	Persons.remove({},function(err){});
 	Papers.remove({},function(err){});
 	Questions.remove({},function(err){});
 	Answers.remove({},function(err){});
@@ -65,6 +74,17 @@ exports.saveQuestion = function(req,res){
 		answer.question_id = question._id;
 		answer.content = answers[i];
 		answer.save();
-		/*console.log(answer);*/
 	}
+}
+exports.savePerson = function(paper_id){
+	var person = new Persons();
+	person.name = "audition";
+	person.paper_id = paper_id;
+	person.save();
+	return person._id;
+}
+
+/*delete*/
+exports.delPerson = function(person_id){
+	Persons.remove({_id:person_id},function(err){});
 }

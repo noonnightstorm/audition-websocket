@@ -6,7 +6,6 @@
 var express = require('express')
   , routes = require('./routes/routes')
   , db = require('./routes/db')
-  , socket =require('./routes/socket')
   , sio = require('socket.io')
   , http = require('http')
   , path = require('path');
@@ -36,7 +35,9 @@ app.get('/create_paper', routes.createPaper);
 app.get('/modify_paper/:paper_id', routes.modifyPaper);
 app.get('/choose_paper',routes.choosePaper);
 app.get('/examination/:paper_id', routes.examination);
+app.get('/exit_exam/:person_id',routes.exitExam);
 app.get('/admin', routes.admin);
+app.get('/admin_control/:paper_id',routes.adminControl);
 
 /*db*/
 app.post("/save_paper",db.savePaper);
@@ -47,10 +48,23 @@ var server = http.createServer(app);
 /*socket.io*/
 var io = sio.listen(server);
 io.sockets.on("connection",function(socket){
-  socket.on("text",function(data){
-    console.log(data);
+  socket.on("answer_single",function(data){
+    io.sockets.emit("answer_single_admin" , { 
+      answer_id : data.answer_id
+    });
   });
-  socket.emit("text", { "data": "seccess!" });
+  socket.on("answer_double",function(data){
+    io.sockets.emit("answer_double_admin" , {
+     answer_id : data.answer_id,
+     mark : data.mark
+    });
+  });
+  socket.on("answer_text",function(data){
+    io.sockets.emit("answer_text_admin" , { 
+      question_id : data.quesion_id,
+      content : data.content
+    });
+  });
 });
 
 server.listen(app.get('port'), function(){
