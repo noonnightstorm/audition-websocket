@@ -10,13 +10,13 @@
   <body>
     <% questions.forEach(function(question){ %>
       <% if(question.type == "0"){ %>
-        <% include exam_topic_single %>
+        <% include admin_exam_topic_single %>
       <% } %>
       <% if(question.type == "1"){ %>
-        <% include exam_topic_double %>
+        <% include admin_exam_topic_double %>
       <%} %>
       <% if(question.type == "2"){ %>
-        <% include exam_topic_question %>
+        <% include admin_exam_topic_question %>
       <% } %>
     <% }) %>
   </body>

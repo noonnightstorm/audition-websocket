@@ -24,11 +24,20 @@ var Answer = new Schema({
 	question_id : String  ,
 	content : String 
 });
+var Replication = new Schema({
+	answer_id : String  ,
+	person_id : String  ,
+	paper_id : String  ,
+	question_id : String  ,
+	content : String  ,
+	result : String
+});
 
 var Persons = mongoose.model( 'Persons', Person );
 var Papers = mongoose.model( 'Papers', Paper );
 var Questions = mongoose.model( 'Qusetions', Qusetion );
 var Answers = mongoose.model( 'Answers', Answer );
+var Replications = mongoose.model( 'Replications', Replication );
 
 /*get*/
 exports.getPerson = function(){
@@ -42,6 +51,9 @@ exports.getQuestion = function(){
 }
 exports.getAnswer = function(){
 	return Answers;
+}
+exports.getReplication = function(){
+	return Replications;
 }
 
 
@@ -83,8 +95,46 @@ exports.savePerson = function(paper_id){
 	person.save();
 	return person._id;
 }
+exports.saveSingleReplication = function (data){
+	Replications.update({answer_id:data.answer_id},{$set:{result:"true"}},function(err,obj){});
+}
+exports.saveDoubleReplication = function (data){
+	Replications.update({answer_id:data.answer_id},{$set:{result:data.mark}},function(err,obj){});
+}
+exports.saveTextReplication = function (data){
+	Replications.update({question_id:data.question_id},{$set:{result:data.content}},function(err,obj){});
+}
+
 
 /*delete*/
 exports.delPerson = function(person_id){
 	Persons.remove({_id:person_id},function(err){});
+}
+
+/*init db*/
+exports.initReplication = function(person_id,paper_id){
+	Answers.find({paper_id:paper_id},function(err,answers){
+		answers.forEach(function(answer){
+			var replication = new Replications();
+			replication.answer_id = answer._id;
+			replication.person_id = person_id;
+			replication.paper_id = answer.paper_id;
+			replication.question_id = answer.question_id;
+			replication.content = answer.content;
+			replication.result = "false";
+			replication.save();
+		});
+	});
+	Questions.find({paper_id:paper_id,type:2},function(err,questions){
+		questions.forEach(function(question){
+			var replication = new Replications();
+			replication.answer_id = "null";
+			replication.person_id = person_id;
+			replication.paper_id = question.paper_id;
+			replication.question_id = question._id;
+			replication.content = "null";
+			replication.result = "";
+			replication.save();
+		});
+	});
 }

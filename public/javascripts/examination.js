@@ -1,17 +1,22 @@
 var socket = io.connect('http://localhost');
-/*socket.on("text",function(data){
-	console.log(data);
-});*/
 $(document).ready(function(){
+	ExaminationListener.getPersonId();
 	$("input[type='radio']").click(ExaminationListener.addSingleListener);
 	$("input[type='checkbox']").click(ExaminationListener.addDoubleListener);
 	$(".answer-text-btn").click(ExaminationListener.addAnswerListener);
 });
 
 var ExaminationListener = {
+	person_id : "",
+	getPersonId : function(){
+		var temp = window.location.href;
+		var temps = temp.split("/");
+		this.person_id = temps[temps.length-1];
+	},
 	addSingleListener : function(){
 		var answer_id = $(this).val();
 		socket.emit("answer_single",{
+			person_id : ExaminationListener.person_id,
 			answer_id : answer_id
 		});
 	},
@@ -23,6 +28,7 @@ var ExaminationListener = {
 		else
 			mark = false;
 		socket.emit("answer_double",{
+			person_id : ExaminationListener.person_id,
 			answer_id : answer_id,
 			mark : mark
 		});
@@ -31,6 +37,7 @@ var ExaminationListener = {
 		var question_id = $(this).val();
 		var content = $(this).siblings("textarea").val();
 		socket.emit("answer_text",{
+			person_id : ExaminationListener.person_id,
 			question_id : question_id,
 			content : content
 		});

@@ -1,0 +1,16 @@
+<article>
+	<section><%= question.content %></section>
+	<% replications.forEach(function(replication){ %>
+		<% if(question._id == replication.question_id){ %>
+			<section>
+				<% if(replication.result == "true"){ %>
+				<input type="radio" value="<%= replication.answer_id %>" checked="<%= replication.result %>">
+				<% } %>
+				<% if(replication.result == "false"){ %>
+				<input type="radio" value="<%= replication.answer_id %>">
+				<% } %>
+				<span><%= replication.content %></span>
+			</section>
+		<% } %>
+	<% }) %>
+</article>

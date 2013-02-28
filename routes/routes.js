@@ -37,6 +37,7 @@ exports.choosePaper = function(req,res){
 };
 exports.examination = function(req,res){
 	var person_id = db.savePerson(req.params.paper_id);
+	db.initReplication(person_id,req.params.paper_id);
 	db.getQuestion().find({paper_id:req.params.paper_id},function(err,questions){
 		db.getAnswer().find({paper_id:req.params.paper_id},function(err,answers){
 			res.render('examination', {
@@ -61,11 +62,11 @@ exports.admin = function(req, res){
 };
 exports.adminControl = function(req,res){
 	db.getQuestion().find({paper_id:req.params.paper_id},function(err,questions){
-		db.getAnswer().find({paper_id:req.params.paper_id},function(err,answers){
+		db.getReplication().find({paper_id:req.params.paper_id},function(err,replications){
 			res.render('admin_control', {
 				paper_id:req.params.paper_id,
 				questions:questions,
-				answers:answers
+				replications:replications
 			});
 		})
 	});
