@@ -16,6 +16,7 @@ var Response = {
 				break;
 			}
 		}
+		console.log(data);
 	},
 	doubleAnswer : function(data){
 		var inputs = $("input[type='checkbox']");
@@ -28,6 +29,7 @@ var Response = {
 				$(inputs[i]).attr("checked",false);
 			break;
 		}
+		console.log(data);
 	},
 	textAnswer : function(data){
 		var btns = $(".answer-text-btn");
@@ -39,5 +41,6 @@ var Response = {
 			$(btns[i]).siblings("textarea").val(data.content);
 			break;
 		}
+		console.log(data);
 	}
 };

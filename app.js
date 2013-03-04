@@ -6,6 +6,7 @@
 var express = require('express')
   , routes = require('./routes/routes')
   , db = require('./routes/db')
+  , socket = require('./routes/socket')
   , sio = require('socket.io')
   , http = require('http')
   , path = require('path');
@@ -37,7 +38,7 @@ app.get('/choose_paper',routes.choosePaper);
 app.get('/examination/:paper_id', routes.examination);
 app.get('/exit_exam/:person_id',routes.exitExam);
 app.get('/admin', routes.admin);
-app.get('/admin_control/:paper_id',routes.adminControl);
+app.get('/admin_control/:person_id/:paper_id',routes.adminControl);
 
 /*db*/
 app.post("/save_paper",db.savePaper);
@@ -47,7 +48,8 @@ var server = http.createServer(app);
 
 /*socket.io*/
 var io = sio.listen(server);
-io.sockets.on("connection",function(socket){
+io.sockets.on("connection",socket.connection(io));
+/*io.sockets.on("connection",function(socket){
   socket.on("answer_single",function(data){
     db.saveSingleReplication(data);
     io.sockets.emit("answer_single_admin" , { 
@@ -71,7 +73,7 @@ io.sockets.on("connection",function(socket){
       content : data.content
     });
   });
-});
+});*/
 
 server.listen(app.get('port'), function(){
   console.log("Express server listening on port " + app.get('port'));

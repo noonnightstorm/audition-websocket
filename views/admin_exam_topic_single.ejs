@@ -1,13 +1,13 @@
 <article>
-	<section><%= question.content %></section>
+	<section><%= count %> : <%= question.content %></section>
 	<% replications.forEach(function(replication){ %>
 		<% if(question._id == replication.question_id){ %>
 			<section>
 				<% if(replication.result == "true"){ %>
-				<input type="radio" value="<%= replication.answer_id %>" checked="<%= replication.result %>">
+				<input type="radio" value="<%= replication.answer_id %>" checked="<%= replication.result %>" name="replication.question_id">
 				<% } %>
 				<% if(replication.result == "false"){ %>
-				<input type="radio" value="<%= replication.answer_id %>">
+				<input type="radio" value="<%= replication.answer_id %> name="<%= replication.question_id %>"">
 				<% } %>
 				<span><%= replication.content %></span>
 			</section>

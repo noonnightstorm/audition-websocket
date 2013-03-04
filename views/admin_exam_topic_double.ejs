@@ -1,5 +1,5 @@
 <article>
-	<section><%= question.content %></section>
+	<section><%= count %> : <%= question.content %></section>
 	<% replications.forEach(function(replication){ %>
 		<% if(question._id == replication.question_id){ %>
 			<section>

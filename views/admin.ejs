@@ -5,10 +5,10 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
+    <% var count = 1; %>
     <% persons.forEach(function(person){ %>
-      <% var count = 1 %>
-      <a href="/admin_control/<%= person.paper_id %>"><%= person.name %><%= count %></a>
-      <% count++ %>
+      <a href="/admin_control/<%= person._id %>/<%= person.paper_id %>"><%= person.name %><%= count %></a>
+      <% count++; %>
     <% }) %>
   </body>
 </html>

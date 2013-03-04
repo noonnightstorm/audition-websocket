@@ -62,7 +62,8 @@ exports.admin = function(req, res){
 };
 exports.adminControl = function(req,res){
 	db.getQuestion().find({paper_id:req.params.paper_id},function(err,questions){
-		db.getReplication().find({paper_id:req.params.paper_id},function(err,replications){
+		db.getReplication().find({paper_id:req.params.paper_id,person_id:req.params.person_id},function(err,replications){
+			console.log(replications);
 			res.render('admin_control', {
 				paper_id:req.params.paper_id,
 				questions:questions,

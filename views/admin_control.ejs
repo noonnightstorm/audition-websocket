@@ -8,6 +8,7 @@
     <script type="text/javascript" src="/javascripts/admin_control.js"></script>
   </head>
   <body>
+    <% count=1 %>
     <% questions.forEach(function(question){ %>
       <% if(question.type == "0"){ %>
         <% include admin_exam_topic_single %>
@@ -18,6 +19,7 @@
       <% if(question.type == "2"){ %>
         <% include admin_exam_topic_question %>
       <% } %>
+      <% count++; %>
     <% }) %>
   </body>
 </html>
