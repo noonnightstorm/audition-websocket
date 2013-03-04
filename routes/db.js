@@ -66,10 +66,10 @@ exports.savePaper = function(req,res){
 	paper.limit_time = req.body.limit_time;
 	paper.description = req.body.description;
 	paper.save();
-	Persons.remove({},function(err){});
+	/*Persons.remove({},function(err){});
 	Papers.remove({},function(err){});
 	Questions.remove({},function(err){});
-	Answers.remove({},function(err){});
+	Answers.remove({},function(err){});*/
 	res.redirect("/modify_paper/"+paper._id)
 }
 
