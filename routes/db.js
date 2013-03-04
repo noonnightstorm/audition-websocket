@@ -110,6 +110,19 @@ exports.saveTextReplication = function (data){
 exports.delPerson = function(person_id){
 	Persons.remove({_id:person_id},function(err){});
 }
+exports.delReplication = function(req,res){
+	Persons.remove({_id:req.params.person_id},function(err){
+		Replications.remove({person_id:req.params.person_id},function(err){
+			if(!err)
+			res.redirect("/");
+		});
+	});
+}
+exports.delQuestion = function(req,res){
+	Questions.remove({_id:req.params.question_id},function(err){
+		Answers.remove({question_id:req.params.question_id},function(err){});
+	});
+}
 
 /*init db*/
 exports.initReplication = function(person_id,paper_id){

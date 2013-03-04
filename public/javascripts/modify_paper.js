@@ -2,6 +2,8 @@ $(document).ready(function(){
 	$(".add-answer-btn").click(AnswerObj.addAnswer);
 	$(".add-question-btn").click(QuestionObj.addQuestion);
 	$(".save-question-btn").click(QuestionObj.saveQuestion);
+	$(".del-question-btn").click(QuestionObj.delQuestion);
+	$(".question-type").blur(selectBlur);
 });
 
 var AnswerObj = {
@@ -25,6 +27,7 @@ var QuestionObj = {
 		AnswerObj.count = 0;
 		var node = $(".question-form-example").clone(true);
 		$(node).removeClass("question-form-example").appendTo("body").css("display","block");
+		var question_num = $(node).children("#question-num").val();
 		QuestionObj.count++;
 	},
 	saveQuestion : function(e){
@@ -39,17 +42,40 @@ var QuestionObj = {
 			content : $(e.target).siblings(".question-content-box").children("#question-content").val(),
 			answers : answers
 		};
+		$(e.target).attr("disabled","disabled");
 		$.ajax({
 			url : "/save_question/"+e.target.value,
-			type : "put",
+			type : "post",
 			data : Question,
 			datatype : "json",
 			success : function (data){
-
 			},
 			error : function(XMLHttpRequest, textStatus, errorThrown){
 				console.log(XMLHttpRequest + '#' + textStatus + '#' + errorThrown);
 			}
 		});
+	},
+	delQuestion : function (e){
+		e.preventDefault();
+		$.ajax({
+			url : "/del_question/"+e.target.value,
+			type : "get",
+			datatype : "json",
+			success : function (data){
+			},
+			error : function(XMLHttpRequest, textStatus, errorThrown){
+				console.log(XMLHttpRequest + '#' + textStatus + '#' + errorThrown);
+			}
+		});
+		$(e.target).parent(".question-form").remove();
 	}
 };
+
+function selectBlur (){
+	if($(this).val() == 2){
+		$(this).parents(".question-form").find(".add-answer-btn").hide();
+	}
+	else{
+		$(this).parents(".question-form").find(".add-answer-btn").show();
+	}
+}

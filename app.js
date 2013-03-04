@@ -42,7 +42,9 @@ app.get('/admin_control/:person_id/:paper_id',routes.adminControl);
 
 /*db*/
 app.post("/save_paper",db.savePaper);
-app.put("/save_question/:paper_id",db.saveQuestion);
+app.post("/save_question/:paper_id",db.saveQuestion);
+app.get('/del_replication/:person_id',db.delReplication);
+app.get('/del_question/:question_id',db.delQuestion);
 
 var server = http.createServer(app);
 

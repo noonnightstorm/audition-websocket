@@ -10,8 +10,9 @@
     <button class="add-question-btn">添加试题</button>
 	<div class="question-form question-form-example">
 		<div class="question-type-box">
+			<p class="question-mark"><------ new question ------></p>
 			<label>type:</label>
-			<select id="question-type">
+			<select class="question-type">
 				<option value="0">单选题</option>
 				<option value="1">多选题</option>
 				<option value="2">问答题</option>
@@ -37,5 +38,6 @@
 	<% questions.forEach(function(question){ %>
 		<% include question_modify_part %>
 	<% }) %>
+	<a href="/admin_paper">返回</a>
   </body>
 </html>
