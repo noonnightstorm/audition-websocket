@@ -39,7 +39,6 @@ exports.choosePaper = function(req,res){
 exports.examination = function(req,res){
 	var person_id = req.params.person_id;
 	db.savePaperId(person_id,req.params.paper_id);
-	console.log(person_id);
 	db.getReplication().findOne({person_id:person_id},function(err,obj){
 		if(obj){
 			db.getQuestion().find({paper_id:req.params.paper_id},function(err,questions){
