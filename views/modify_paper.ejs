@@ -7,7 +7,6 @@
     <script type="text/javascript" src="/javascripts/modify_paper.js"></script>
   </head>
   <body>
-    <button class="add-question-btn">添加试题</button>
 	<div class="question-form question-form-example">
 		<div class="question-type-box">
 			<p class="question-mark"><------ new question ------></p>
@@ -38,6 +37,10 @@
 	<% questions.forEach(function(question){ %>
 		<% include question_modify_part %>
 	<% }) %>
-	<a href="/admin_paper">返回</a>
+	<div class="paper-exit-box">
+		<button class="add-question-btn">添加试题</button>
+		<a href="/del_paper/<%= paper_id %>">删除试卷</a>
+		<a href="/admin_paper">返回</a>
+	</div>
   </body>
 </html>

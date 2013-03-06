@@ -5,9 +5,26 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <% papers.forEach(function(paper){ %>
-    	<a href="/examination/<%= paper._id %>/<%= person_id %>"><%= paper.name %></a>
-    <%	}) %>
-    <a href="/">返回菜单</a>
+    <div class="paper-box">
+      <h1 class="paper-title">Paper List</h1>
+      <div class="paper-row">
+        <span>name</span>
+        <span>type</span>
+        <span>time</span>
+        <span>description</span>
+      </div>
+      <% papers.forEach(function(paper){ %>
+        <div class="paper-row">
+          <span><%= paper.name %></span>
+          <span><%= paper.paper_type %></span>
+          <span><%= paper.limit_time %></span>
+          <span><%= paper.description %></span>
+      	  <a href="/examination/<%= paper._id %>/<%= person_id %>">
+            enter
+          </a>
+        </div>
+      <%	}) %>
+      <a href="/" class="choose-paper-back-a">返回菜单</a>
+    </div>
   </body>
 </html>

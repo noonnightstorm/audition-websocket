@@ -26,7 +26,7 @@ var QuestionObj = {
 		e.preventDefault();
 		AnswerObj.count = 0;
 		var node = $(".question-form-example").clone(true);
-		$(node).removeClass("question-form-example").appendTo("body").css("display","block");
+		$(node).removeClass("question-form-example").insertBefore(".paper-exit-box").css("display","block");
 		var question_num = $(node).children("#question-num").val();
 		QuestionObj.count++;
 	},

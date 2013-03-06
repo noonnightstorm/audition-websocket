@@ -45,6 +45,7 @@ app.post("/save_paper",db.savePaper);
 app.post("/save_question/:paper_id",db.saveQuestion);
 app.get('/del_replication/:person_id',db.delReplication);
 app.get('/del_question/:question_id',db.delQuestion);
+app.get('/del_paper/:paper_id',db.delPaper);
 
 var server = http.createServer(app);
 

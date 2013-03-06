@@ -7,8 +7,10 @@
   <body>
     <a href="/create_paper">添加试卷</a>
     <% papers.forEach(function(paper){ %>
-    	<a href="/modify_paper/<%= paper._id %>"><%= paper.name %></a>
+    	<a href="/modify_paper/<%= paper._id %>">
+        <span><%= paper.name %></span> 
+      </a>
     <%	}) %>
-    <a href="/">返回菜单</a>
+    <a href="/admin">返回菜单</a>
   </body>
 </html>

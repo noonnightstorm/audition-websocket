@@ -5,11 +5,17 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <% var count = 1; %>
-    <% persons.forEach(function(person){ %>
-      <a href="/admin_control/<%= person._id %>/<%= person.paper_id %>"><%= person.name %><%= count %></a>
-      <% count++; %>
-    <% }) %>
+    <div>
+    <p>Candidates:</p>
+    <ul>
+      <% persons.forEach(function(person){ %>
+      <li>
+        <a href="/admin_control/<%= person._id %>/<%= person.paper_id %>"><%= person.name %></a>
+      </li>
+      <% }) %>
+    </ul>
+    </div>
     <a href="/">返回菜单</a>
+    <a href="/admin_paper">管理试卷</a>
   </body>
 </html>

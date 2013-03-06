@@ -28,7 +28,7 @@ exports.modifyPaper = function(req, res){
 	});
 };
 exports.choosePaper = function(req,res){
-	person_id = db.savePerson("",req.params.person_name);
+	person_id = db.savePerson("",req.body.name);
 	db.getPaper().find({},function(err,papers){
 		res.render('choose_paper', {
 			person_id : person_id,
@@ -42,7 +42,6 @@ exports.examination = function(req,res){
 	console.log(person_id);
 	db.getReplication().findOne({person_id:person_id},function(err,obj){
 		if(obj){
-			console.log(obj);
 			db.getQuestion().find({paper_id:req.params.paper_id},function(err,questions){
 				db.getReplication().find({paper_id:req.params.paper_id,person_id:person_id},function(err,replications){
 					res.render('examination', {

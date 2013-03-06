@@ -22,6 +22,24 @@
 	padding:0;
 	margin: 0;
 }
+article{
+	width: 800px;
+	min-height: 100px;
+	height: auto!important;
+	height: 100px;
+	margin: 15px auto;
+	padding: 10px 15px;
+	border: 1px dashed #929292;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+textarea{
+	display: block;
+	width: 600px;
+	height: 80px;
+	margin:7px auto 7px 26px;
+}
 .btn{
 	display: inline-block;
 	width: 100px;
@@ -58,4 +76,48 @@
 }
 .name-btn{
 	margin-left: 150px;
+}
+
+
+/*choose_paper*/
+.paper-title{
+	width: 750px;
+	margin: 10px 0 10px 0;
+	text-align: center;
+}
+.paper-box{
+	width: 750px;
+	margin: auto;
+}
+.paper-row{
+	width: 750px;
+	padding:6px 0;
+	
+}
+.paper-row span{
+	display: inline-block;
+	width: 150px;
+}
+.choose-paper-back-a{
+	display: block;
+	margin-top: 20px;
+}
+/*examination*/
+.exam-title{
+	width: 350px;
+	margin: auto;
+}
+.answer-text-btn{
+	width: 100px;
+	height: 25px;
+	margin-left: 26px;
+}
+.exam-exit-box{
+	width: 800px;
+	margin: auto;
+}
+
+/*modify paper*/
+.paper-exit-box{
+	border-top: 1px dashed #000;
 }

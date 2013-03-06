@@ -92,16 +92,16 @@ exports.savePerson = function(paper_id,person_name){
 	return person._id;
 }
 exports.saveSingleReplication = function (data){
-	Replications.update({answer_id:data.answer_id},{$set:{result:"true"}},function(err,obj){});
+	Replications.update({answer_id:data.answer_id,person_id:data.person_id},{$set:{result:"true"}},function(err,obj){});
 }
 exports.saveDoubleReplication = function (data){
-	Replications.update({answer_id:data.answer_id},{$set:{result:data.mark}},function(err,obj){});
+	Replications.update({answer_id:data.answer_id,person_id:data.person_id},{$set:{result:data.mark}},function(err,obj){});
 }
 exports.saveTextReplication = function (data){
-	Replications.update({question_id:data.question_id},{$set:{result:data.content}},function(err,obj){});
+	Replications.update({question_id:data.question_id,person_id:data.person_id},{$set:{result:data.content}},function(err,obj){});
 }
 exports.savePaperId = function(person_id,paper_id){
-	Persons.update({person_id:person_id},{$set:{paper_id:paper_id}},function(err,obj){console.log(obj)});
+	Persons.update({_id:person_id},{$set:{paper_id:paper_id}},function(err,obj){});
 }
 
 
@@ -113,7 +113,7 @@ exports.delReplication = function(req,res){
 	Persons.remove({_id:req.params.person_id},function(err){
 		Replications.remove({person_id:req.params.person_id},function(err){
 			if(!err)
-			res.redirect("/");
+			res.redirect("/admin");
 		});
 	});
 }
@@ -121,6 +121,14 @@ exports.delQuestion = function(req,res){
 	Questions.remove({_id:req.params.question_id},function(err){
 		Answers.remove({question_id:req.params.question_id},function(err){});
 	});
+}
+exports.delPaper = function(req,res){
+	var paper_id = req.params.paper_id;
+	Papers.remove({_id:paper_id},function(err,obj){});
+	Answers.remove({paper_id:paper_id},function(err,obj){});
+	Questions.remove({paper_id:paper_id},function(err,obj){});
+	Replications.remove({paper_id:paper_id},function(err,obj){});
+	res.redirect("/admin_paper");
 }
 
 /*init db*/
@@ -135,7 +143,6 @@ exports.initReplication = function(person_id,paper_id){
 			replication.content = answer.content;
 			replication.result = "false";
 			replication.save();
-			console.log(replication);
 		});
 	});
 	Questions.find({paper_id:paper_id,type:2},function(err,questions){
