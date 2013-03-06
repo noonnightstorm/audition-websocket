@@ -8,18 +8,33 @@
     <script type="text/javascript" src="/javascripts/examination.js"></script>
   </head>
   <body>
-    <% var count = 1; %>
+    <% var count = 1  %>
   	<% questions.forEach(function(question){ %>
-  		<% if(question.type == "0"){ %>
-  			<% include exam_topic_single %>
-  		<% } %>
-  		<% if(question.type == "1"){ %>
-  			<% include exam_topic_double %>
-  		<%} %>
-  		<% if(question.type == "2"){ %>
-  			<% include exam_topic_question %>
-  		<% } %>
-      <% count++; %>
+      <% if(mark == "replication"){ %>
+    		<% if(question.type == "0"){ %>
+    			<% include admin_exam_topic_single %>
+    		<% } %>
+    		<% if(question.type == "1"){ %>
+    			<% include admin_exam_topic_double %>
+    		<%} %>
+    		<% if(question.type == "2"){ %>
+    			<% include admin_exam_topic_question %>
+    		<% } %>
+        <p>replication</p>
+      <% } %>
+      <% if(mark == "answer"){ %>
+        <% if(question.type == "0"){ %>
+          <% include exam_topic_single %>
+        <% } %>
+        <% if(question.type == "1"){ %>
+          <% include exam_topic_double %>
+        <%} %>
+        <% if(question.type == "2"){ %>
+          <% include exam_topic_question %>
+        <% } %>
+        <p>answer</p>
+      <% } %>
+      <% count++ %>
   	<% }) %>
 
     <div>

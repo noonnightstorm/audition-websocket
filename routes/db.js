@@ -14,7 +14,7 @@ var Paper = new Schema({
 	limit_time : String,
 	description : String
 });
-var Qusetion = new Schema({
+var Question = new Schema({
 	paper_id : String  ,
 	type : Number ,
 	content : String 
@@ -35,7 +35,7 @@ var Replication = new Schema({
 
 var Persons = mongoose.model( 'Persons', Person );
 var Papers = mongoose.model( 'Papers', Paper );
-var Questions = mongoose.model( 'Qusetions', Qusetion );
+var Questions = mongoose.model( 'Questions', Question );
 var Answers = mongoose.model( 'Answers', Answer );
 var Replications = mongoose.model( 'Replications', Replication );
 
@@ -60,16 +60,12 @@ exports.getReplication = function(){
 /*save*/ 
 exports.savePaper = function(req,res){
 	var paper = new Papers();
-	paper.name = req.body.name;
-	paper.type = req.body.type;
+	paper.name = req.body.paper_name;
+	paper.type = req.body.paper_type;
 	paper.question_num = 0;
-	paper.limit_time = req.body.limit_time;
-	paper.description = req.body.description;
+	paper.limit_time = req.body.paper_limit_time;
+	paper.description = req.body.paper_description;
 	paper.save();
-	/*Persons.remove({},function(err){});
-	Papers.remove({},function(err){});
-	Questions.remove({},function(err){});
-	Answers.remove({},function(err){});*/
 	res.redirect("/modify_paper/"+paper._id)
 }
 
@@ -88,9 +84,9 @@ exports.saveQuestion = function(req,res){
 		answer.save();
 	}
 }
-exports.savePerson = function(paper_id){
+exports.savePerson = function(paper_id,person_name){
 	var person = new Persons();
-	person.name = "audition";
+	person.name = person_name;
 	person.paper_id = paper_id;
 	person.save();
 	return person._id;
@@ -103,6 +99,9 @@ exports.saveDoubleReplication = function (data){
 }
 exports.saveTextReplication = function (data){
 	Replications.update({question_id:data.question_id},{$set:{result:data.content}},function(err,obj){});
+}
+exports.savePaperId = function(person_id,paper_id){
+	Persons.update({person_id:person_id},{$set:{paper_id:paper_id}},function(err,obj){console.log(obj)});
 }
 
 
@@ -136,6 +135,7 @@ exports.initReplication = function(person_id,paper_id){
 			replication.content = answer.content;
 			replication.result = "false";
 			replication.save();
+			console.log(replication);
 		});
 	});
 	Questions.find({paper_id:paper_id,type:2},function(err,questions){
@@ -149,5 +149,5 @@ exports.initReplication = function(person_id,paper_id){
 			replication.result = "";
 			replication.save();
 		});
-	});
+	});	
 }

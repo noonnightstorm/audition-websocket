@@ -6,7 +6,8 @@
   </head>
   <body>
     <% papers.forEach(function(paper){ %>
-    	<a href="/examination/<%= paper._id %>"><%= paper.name %></a>
+    	<a href="/examination/<%= paper._id %>/<%= person_id %>"><%= paper.name %></a>
     <%	}) %>
+    <a href="/">返回菜单</a>
   </body>
 </html>

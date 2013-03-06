@@ -2,11 +2,14 @@
 <html>
   <head>
     <title></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/style.css'/>
   </head>
   <body>
-    <a href="/choose_paper">考试</a>
-  	<a href="/admin_paper">试卷管理</a>
-  	<a href="/admin">监控</a>
+  	<h1 class="welcome-title">Welcome to Mbook</h1>
+  	<form class="name-form" method="post" action="/choose_paper">
+  		<p class="tips">Please enter and start examination!</p>
+  		<input id="name" name="name">
+  		<button class="btn name-btn">Enter Exam</button>
+  	</form>
   </body>
 </html>

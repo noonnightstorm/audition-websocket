@@ -38,8 +38,8 @@ var QuestionObj = {
 			answers.push($(answer_nodes[i]).val());
 		}
 		var Question = {
-			type : $(e.target).siblings(".question-type-box").children("#question-type").val(),
-			content : $(e.target).siblings(".question-content-box").children("#question-content").val(),
+			type : $(e.target).siblings(".question-type-box").children(".question-type").val(),
+			content : $(e.target).siblings(".question-content-box").children(".question-content").val(),
 			answers : answers
 		};
 		$(e.target).attr("disabled","disabled");
