@@ -3,6 +3,7 @@
 	<% replications.forEach(function(replication){ %>
 		<% if(replication.question_id == question._id){ %>
 		<textarea><%= replication.result %></textarea>
+		<button value="<%= replication.question_id %>" class="question-id-btn" style="display:none;"></button>
 		<% } %>
 	<% }); %>
 </article>

@@ -1,5 +1,5 @@
-/*var socket = io.connect('http://localhost');*/
-var socket = io.connect('192.168.0.93');
+var socket = io.connect('http://localhost');
+/*var socket = io.connect('192.168.0.93');*/
 $(document).ready(function(){
 	$(".answer-text-btn").css("display","none");
 	socket.on("answer_single_admin",Response.singleAnswer);
@@ -33,10 +33,8 @@ var Response = {
 		console.log(data);
 	},
 	textAnswer : function(data){
-		var btns = $(".answer-text-btn");
+		var btns = $(".question-id-btn");
 		var btns_len = btns.length;
-		console.log($(btns[0]).val());
-		console.log(data.question_id);
 		for(var i=0;i<btns_len;i++)
 		if($(btns[i]).val() == data.question_id){
 			$(btns[i]).siblings("textarea").val(data.content);
