@@ -47,6 +47,7 @@ exports.examination = function(req,res){
 						mark : "replication",
 						person_id:req.params.person_id,
 						paper_id:req.params.paper_id,
+						paper_name : req.params.paper_name,
 						questions:questions,
 						replications:replications
 					});
@@ -61,6 +62,7 @@ exports.examination = function(req,res){
 						mark : "answer",
 						person_id : person_id,
 						paper_id:req.params.paper_id,
+						paper_name : req.params.paper_name,
 						questions:questions,
 						answers:answers
 					});

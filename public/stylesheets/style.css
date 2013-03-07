@@ -85,6 +85,10 @@ textarea{
 	margin: 10px 0 10px 0;
 	text-align: center;
 }
+.exam-paper-name{
+	width: 350px;
+	margin: 5px auto;
+}
 .paper-box{
 	width: 750px;
 	margin: auto;
