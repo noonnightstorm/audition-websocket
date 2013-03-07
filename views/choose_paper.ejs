@@ -6,21 +6,21 @@
   </head>
   <body>
     <div class="paper-box">
-      <h1 class="paper-title">Paper List</h1>
+      <h1 class="paper-title">试卷列表</h1>
       <div class="paper-row">
-        <span>name</span>
-        <span>type</span>
-        <span>time</span>
-        <span>description</span>
+        <span>名称</span>
+        <span>类型</span>
+        <span>时间</span>
+        <span>描述</span>
       </div>
       <% papers.forEach(function(paper){ %>
         <div class="paper-row">
           <span><%= paper.name %></span>
-          <span><%= paper.paper_type %></span>
+          <span><%= paper.type %></span>
           <span><%= paper.limit_time %></span>
           <span><%= paper.description %></span>
       	  <a href="/examination/<%= paper._id %>/<%= person_id %>">
-            enter
+            进入笔试
           </a>
         </div>
       <%	}) %>

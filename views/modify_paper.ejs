@@ -9,8 +9,8 @@
   <body>
 	<div class="question-form question-form-example">
 		<div class="question-type-box">
-			<p class="question-mark"><------ new question ------></p>
-			<label>type:</label>
+			<p class="question-mark"><------ 新题目 ------></p>
+			<label>题目类型:</label>
 			<select class="question-type">
 				<option value="0">单选题</option>
 				<option value="1">多选题</option>
@@ -18,21 +18,21 @@
 			</select>
 		</div>
 		<div class="question-content-box">
-			<label>content:</label>
+			<label>题目内容:</label>
 			<textarea class="question-content"></textarea>
 		</div>
 		<div class="answer-box">
 			<section>
 				<button class="add-answer-btn">
-					add answer
+					添加选项
 				</button>
 			</section>
 			<div class="answer-item answer-item-example">
-				<label>answer:</label>
+				<label>答案选项:</label>
 				<input type="text" class="answer-content">
 			</div>
 		</div>
-		<button class="save-question-btn" value="<%= paper_id %>">save</button>
+		<button class="save-question-btn" value="<%= paper_id %>">保存</button>
 	</div>
 	<% questions.forEach(function(question){ %>
 		<% include question_modify_part %>
