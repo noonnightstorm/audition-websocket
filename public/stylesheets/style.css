@@ -52,7 +52,7 @@ textarea{
 /*index style*/
 .welcome-title{
 	height: 35px;
-	width: 350px;
+	width: 300px;
 	margin:70px auto 30px auto;
 }
 .name-form{
@@ -62,7 +62,7 @@ textarea{
 	border: 2px solid #929292;
 }
 .tips{
-	width: 290px;
+	width: 200px;
 	margin: 10px auto;
 }
 #name{
