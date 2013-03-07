@@ -92,13 +92,13 @@ exports.savePerson = function(paper_id,person_name){
 	return person._id;
 }
 exports.saveSingleReplication = function (data){
-	Replications.update({answer_id:data.answer_id,person_id:data.person_id},{$set:{result:"true"}},function(err,obj){});
+	Replications.update({answer_id:data.answer_id,person_id:data.person_id},{$set:{result:"true"}},function(err,obj){console.log(obj);});
 }
 exports.saveDoubleReplication = function (data){
-	Replications.update({answer_id:data.answer_id,person_id:data.person_id},{$set:{result:data.mark}},function(err,obj){});
+	Replications.update({answer_id:data.answer_id,person_id:data.person_id},{$set:{result:data.mark}},function(err,obj){console.log(obj);});
 }
 exports.saveTextReplication = function (data){
-	Replications.update({question_id:data.question_id,person_id:data.person_id},{$set:{result:data.content}},function(err,obj){});
+	Replications.update({question_id:data.question_id,person_id:data.person_id},{$set:{result:data.content}},function(err,obj){console.log(obj);});
 }
 exports.savePaperId = function(person_id,paper_id){
 	Persons.update({_id:person_id},{$set:{paper_id:paper_id}},function(err,obj){});

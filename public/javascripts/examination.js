@@ -1,4 +1,4 @@
-var socket = io.connect('192.168.0.93');
+var socket = io.connect('http://localhost');
 $(document).ready(function(){
 	ExaminationListener.getPersonId();
 	$("input[type='radio']").click(ExaminationListener.addSingleListener);

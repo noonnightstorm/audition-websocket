@@ -35,7 +35,7 @@ app.get('/admin_paper', routes.paper);
 app.get('/create_paper', routes.createPaper);
 app.get('/modify_paper/:paper_id', routes.modifyPaper);
 app.post('/choose_paper',routes.choosePaper);
-app.get('/examination/:paper_id/:person_id/:paper_name', routes.examination);
+app.get('/examination/:paper_id/:paper_name/:person_id', routes.examination);
 app.get('/exit_exam/:person_id',routes.exitExam);
 app.get('/admin', routes.admin);
 app.get('/admin_control/:person_id/:paper_id',routes.adminControl);

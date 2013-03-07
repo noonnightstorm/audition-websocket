@@ -1,4 +1,4 @@
-var socket = io.connect('192.168.0.93');
+var socket = io.connect('http://localhost');
 $(document).ready(function(){
 	$(".answer-text-btn").css("display","none");
 	socket.on("answer_single_admin",Response.singleAnswer);
