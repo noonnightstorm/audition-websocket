@@ -1,0 +1,914 @@
+info: socket.io started
+Express server listening on port 3000
+info: socket.io started
+Express server listening on port 3000
+debug: client authorized
+info: handshake authorized 8rp4jxXX_v9mgEjGpwkw
+debug: client authorized
+info: handshake authorized YIIR4uVFLDFj542Rpwkx
+debug: setting request GET /socket.io/1/websocket/8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: client authorized for 
+debug: websocket writing 1::
+debug: setting request GET /socket.io/1/websocket/YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: emitting heartbeat for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 2::
+debug: set heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: emitting heartbeat for client YIIR4uVFLDFj542Rpwkx
+debug: websocket writing 2::
+debug: set heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client YIIR4uVFLDFj542Rpwkx
+debug: set heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: set heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"513832998ff5666f1e000001","question_id":"51380e90c0034b4c11000018","content":"hello world"}]}
+1
+[90mGET /examination/51380e73c0034b4c1100000c/java%20%E5%B7%A5%E7%A8%8B%E5%B8%88/513832998ff5666f1e000001 [32m200 [90m33ms - 2.38kb[0m
+info: transport end (socket end)
+debug: set close timeout for client YIIR4uVFLDFj542Rpwkx
+debug: cleared close timeout for client YIIR4uVFLDFj542Rpwkx
+debug: cleared heartbeat interval for client YIIR4uVFLDFj542Rpwkx
+debug: discarding transport
+[90mGET /javascripts/examination.js [36m304 [90m5ms[0m
+[90mGET /javascripts/jquery-1.7.min.js [36m304 [90m3ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+debug: served static content /socket.io.js
+debug: client authorized
+info: handshake authorized 4cWglYUd-yT5QY5Jpwky
+debug: setting request GET /socket.io/1/websocket/4cWglYUd-yT5QY5Jpwky
+debug: set heartbeat interval for client 4cWglYUd-yT5QY5Jpwky
+debug: client authorized for 
+debug: websocket writing 1::
+info: transport end (socket end)
+debug: set close timeout for client 4cWglYUd-yT5QY5Jpwky
+debug: cleared close timeout for client 4cWglYUd-yT5QY5Jpwky
+debug: cleared heartbeat interval for client 4cWglYUd-yT5QY5Jpwky
+debug: discarding transport
+info: transport end (socket end)
+debug: set close timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: cleared close timeout for client 8rp4jxXX_v9mgEjGpwkw
+debug: cleared heartbeat interval for client 8rp4jxXX_v9mgEjGpwkw
+debug: discarding transport
+[90mGET / [32m200 [90m4ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /admin [32m200 [90m6ms - 765[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /admin_paper [32m200 [90m4ms - 344[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /create_paper [32m200 [90m3ms - 695[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mPOST /save_paper [36m302 [90m5ms - 132[0m
+[90mGET /modify_paper/51383c67f1d7fdfe1f000001 [32m200 [90m7ms - 1.32kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /javascripts/modify_paper.js [36m304 [90m1ms[0m
+[90mGET /javascripts/jquery-1.7.min.js [36m304 [90m1ms[0m
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m10ms[0m
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m2ms[0m
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m2ms[0m
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m2ms[0m
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m2ms[0m
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m1ms[0m
+[90mGET / [32m200 [90m1ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mPOST /choose_paper [32m200 [90m12ms - 1.04kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET /examination/51383c67f1d7fdfe1f000001/test/51383c8af1d7fdfe1f000008 [32m200 [90m31ms - 1.96kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /javascripts/jquery-1.7.min.js [36m304 [90m1ms[0m
+[90mGET /javascripts/examination.js [32m200 [90m4ms - 1.7kb[0m
+debug: client authorized
+info: handshake authorized pTiTtB_sUnPtXnB1pwkz
+debug: setting request GET /socket.io/1/websocket/pTiTtB_sUnPtXnB1pwkz
+debug: set heartbeat interval for client pTiTtB_sUnPtXnB1pwkz
+debug: client authorized for 
+debug: websocket writing 1::
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m1ms[0m
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+TypeError: Cannot read property 'length' of undefined
+    at exports.saveQuestion (/home/noonnightstorm/coding/nodeJs/audition-websocket/routes/db.js:79:23)
+    at callbacks (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:160:37)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:134:11)
+    at param (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:131:11)
+    at pass (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:141:5)
+    at Router._dispatch (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:169:5)
+    at Object.router (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/lib/router/index.js:32:10)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+    at Object.methodOverride [as handle] (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/middleware/methodOverride.js:37:5)
+    at next (/home/noonnightstorm/coding/nodeJs/audition-websocket/node_modules/express/node_modules/connect/lib/proto.js:190:15)
+[90mPOST /save_question/51383c67f1d7fdfe1f000001 [31m500 [90m3ms[0m
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+[90mGET /examination/51383c67f1d7fdfe1f000001/test/51383c8af1d7fdfe1f000008 [32m200 [90m14ms - 2.41kb[0m
+info: transport end (socket end)
+debug: set close timeout for client pTiTtB_sUnPtXnB1pwkz
+debug: cleared close timeout for client pTiTtB_sUnPtXnB1pwkz
+debug: cleared heartbeat interval for client pTiTtB_sUnPtXnB1pwkz
+debug: discarding transport
+debug: served static content /socket.io.js
+[90mGET /javascripts/examination.js [36m304 [90m2ms[0m
+[90mGET /javascripts/jquery-1.7.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized Pd-avyqoNOtG_LKLpwk0
+debug: setting request GET /socket.io/1/websocket/Pd-avyqoNOtG_LKLpwk0
+debug: set heartbeat interval for client Pd-avyqoNOtG_LKLpwk0
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+debug: emitting heartbeat for client Pd-avyqoNOtG_LKLpwk0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Pd-avyqoNOtG_LKLpwk0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Pd-avyqoNOtG_LKLpwk0
+debug: set heartbeat interval for client Pd-avyqoNOtG_LKLpwk0
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: emitting heartbeat for client Pd-avyqoNOtG_LKLpwk0
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Pd-avyqoNOtG_LKLpwk0
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Pd-avyqoNOtG_LKLpwk0
+debug: set heartbeat interval for client Pd-avyqoNOtG_LKLpwk0
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+[90mGET /examination/51383c67f1d7fdfe1f000001/test/51383c8af1d7fdfe1f000008 [36m304 [90m15ms[0m
+info: transport end (socket end)
+debug: set close timeout for client Pd-avyqoNOtG_LKLpwk0
+debug: cleared close timeout for client Pd-avyqoNOtG_LKLpwk0
+debug: cleared heartbeat interval for client Pd-avyqoNOtG_LKLpwk0
+debug: discarding transport
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+debug: served static content /socket.io.js
+[90mGET /javascripts/examination.js [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery-1.7.min.js [36m304 [90m0ms[0m
+debug: client authorized
+info: handshake authorized ajlGJXh1bk_qFG3_pwk1
+debug: setting request GET /socket.io/1/websocket/ajlGJXh1bk_qFG3_pwk1
+debug: set heartbeat interval for client ajlGJXh1bk_qFG3_pwk1
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: emitting heartbeat for client ajlGJXh1bk_qFG3_pwk1
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ajlGJXh1bk_qFG3_pwk1
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ajlGJXh1bk_qFG3_pwk1
+debug: set heartbeat interval for client ajlGJXh1bk_qFG3_pwk1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+debug: emitting heartbeat for client ajlGJXh1bk_qFG3_pwk1
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ajlGJXh1bk_qFG3_pwk1
+1
+1
+1
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ajlGJXh1bk_qFG3_pwk1
+debug: set heartbeat interval for client ajlGJXh1bk_qFG3_pwk1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+debug: emitting heartbeat for client ajlGJXh1bk_qFG3_pwk1
+debug: websocket writing 2::
+debug: set heartbeat timeout for client ajlGJXh1bk_qFG3_pwk1
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client ajlGJXh1bk_qFG3_pwk1
+debug: set heartbeat interval for client ajlGJXh1bk_qFG3_pwk1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+[90mGET /examination/51383c67f1d7fdfe1f000001/test/51383c8af1d7fdfe1f000008 [32m200 [90m18ms - 3.07kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+info: transport end (socket end)
+debug: set close timeout for client ajlGJXh1bk_qFG3_pwk1
+debug: cleared close timeout for client ajlGJXh1bk_qFG3_pwk1
+debug: cleared heartbeat interval for client ajlGJXh1bk_qFG3_pwk1
+debug: discarding transport
+debug: served static content /socket.io.js
+[90mGET /javascripts/examination.js [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery-1.7.min.js [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized Txw876VqOH3011o7pwk2
+debug: setting request GET /socket.io/1/websocket/Txw876VqOH3011o7pwk2
+debug: set heartbeat interval for client Txw876VqOH3011o7pwk2
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+debug: emitting heartbeat for client Txw876VqOH3011o7pwk2
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Txw876VqOH3011o7pwk2
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Txw876VqOH3011o7pwk2
+debug: set heartbeat interval for client Txw876VqOH3011o7pwk2
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+debug: emitting heartbeat for client Txw876VqOH3011o7pwk2
+debug: websocket writing 2::
+debug: set heartbeat timeout for client Txw876VqOH3011o7pwk2
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client Txw876VqOH3011o7pwk2
+debug: set heartbeat interval for client Txw876VqOH3011o7pwk2
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+[90mGET /examination/51383c67f1d7fdfe1f000001/test/51383c8af1d7fdfe1f000008 [32m200 [90m10ms - 2.41kb[0m
+info: transport end (socket end)
+debug: set close timeout for client Txw876VqOH3011o7pwk2
+debug: cleared close timeout for client Txw876VqOH3011o7pwk2
+debug: cleared heartbeat interval for client Txw876VqOH3011o7pwk2
+debug: discarding transport
+debug: served static content /socket.io.js
+[90mGET /javascripts/examination.js [36m304 [90m3ms[0m
+[90mGET /javascripts/jquery-1.7.min.js [36m304 [90m2ms[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+debug: client authorized
+info: handshake authorized CQxx0iUhfBqFiY5Apwk3
+debug: setting request GET /socket.io/1/websocket/CQxx0iUhfBqFiY5Apwk3
+debug: set heartbeat interval for client CQxx0iUhfBqFiY5Apwk3
+debug: client authorized for 
+debug: websocket writing 1::
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: emitting heartbeat for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 2::
+debug: set heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: set heartbeat interval for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+debug: emitting heartbeat for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 2::
+debug: set heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: set heartbeat interval for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: emitting heartbeat for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 2::
+debug: set heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: set heartbeat interval for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+1
+1
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+1
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+debug: emitting heartbeat for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 2::
+debug: set heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: got heartbeat packet
+debug: cleared heartbeat timeout for client CQxx0iUhfBqFiY5Apwk3
+debug: set heartbeat interval for client CQxx0iUhfBqFiY5Apwk3
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c6df1d7fdfe1f000002","content":""}]}
+1
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c70f1d7fdfe1f000003","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c76f1d7fdfe1f000004","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c79f1d7fdfe1f000005","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c7ef1d7fdfe1f000006","content":""}]}
+debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"51383c8af1d7fdfe1f000008","question_id":"51383c83f1d7fdfe1f000007","content":""}]}
+1
+1
+1
+1
+1

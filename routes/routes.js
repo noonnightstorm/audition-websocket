@@ -43,6 +43,7 @@ exports.examination = function(req,res){
 		if(obj){
 			db.getQuestion().find({paper_id:req.params.paper_id},function(err,questions){
 				db.getReplication().find({paper_id:req.params.paper_id,person_id:person_id},function(err,replications){
+					console.log(questions);
 					res.render('examination', {
 						mark : "replication",
 						person_id:req.params.person_id,
@@ -58,6 +59,7 @@ exports.examination = function(req,res){
 			db.initReplication(person_id,req.params.paper_id);
 			db.getQuestion().find({paper_id:req.params.paper_id},function(err,questions){
 				db.getAnswer().find({paper_id:req.params.paper_id},function(err,answers){
+					console.log(questions);
 					res.render('examination', {
 						mark : "answer",
 						person_id : person_id,
