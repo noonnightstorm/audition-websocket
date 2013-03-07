@@ -8,8 +8,8 @@
     <script type="text/javascript" src="/javascripts/examination.js"></script>
   </head>
   <body>
-    <h1 class="exam-title">欢迎来到Mbook笔试!</h1>
-    <h2 class="exam-paper-name">你选择的试卷是：<%= paper_name %></h2>
+    <h1 class="exam-title">你正在进行的笔试：<%= paper_name %></h1>
+    <!--    <h2 class="exam-paper-name"></h2> -->
     <% var count = 1  %>
   	<% questions.forEach(function(question){ %>
       <% if(mark == "replication"){ %>
