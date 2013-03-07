@@ -912,3 +912,47 @@ debug: websocket writing 5:::{"name":"answer_text_admin","args":[{"person_id":"5
 1
 1
 1
+info: socket.io started
+Express server listening on port 3000
+info: socket.io started
+Express server listening on port 3000
+info: socket.io started
+Express server listening on port 3000
+[90mGET / [32m200 [90m10ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+[90mGET / [32m200 [90m3ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m2ms[0m
+[90mGET / [32m200 [90m4ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET / [32m200 [90m0ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+[90mGET / [32m200 [90m5ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m0ms[0m
+[90mGET / [32m200 [90m1ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+info: socket.io started
+Express server listening on port 3000
+[90mGET / [32m200 [90m9ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+info: socket.io started
+Express server listening on port 3000
+[90mGET / [32m200 [90m10ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m7ms[0m
+[90mPOST /choose_paper [32m200 [90m20ms - 1.04kb[0m
+[90mGET /stylesheets/style.css [36m304 [90m3ms[0m
+info: socket.io started
+Express server listening on port 3000
+[90mGET / [32m200 [90m10ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m5ms[0m
+info: socket.io started
+Express server listening on port 3000
+[90mGET / [32m200 [90m11ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m4ms[0m
+info: socket.io started
+Express server listening on port 3000
+[90mGET / [32m200 [90m10ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m6ms[0m
+[90mGET / [32m200 [90m1ms - 426[0m
+[90mGET /stylesheets/style.css [36m304 [90m1ms[0m
+info: socket.io started
+warn: error raised: Error: listen EADDRINUSE
